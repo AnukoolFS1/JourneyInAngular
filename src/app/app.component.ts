@@ -12,9 +12,9 @@ import { Title } from '@angular/platform-browser';
 })
 export class AppComponent {
   items = [new WishItems("Learn Angular"), new WishItems("Learn Typescript")]
-  title = 'wishlist';
+  title = 'wishlisting';
 
-  constructor(private titleService: Title) {
-    this.titleService.setTitle('Learning the Angular'); // Set the initial page title
-  }
+  // constructor(private titleService: Title) {
+  //   this.titleService.setTitle('Learning the Angular'); // Set the initial page title
+  // }
 }
