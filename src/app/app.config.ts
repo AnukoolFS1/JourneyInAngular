@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*!
  * @license
  * Copyright Google LLC All Rights Reserved.
@@ -10,4 +11,13 @@ import {ApplicationConfig} from '@angular/core';
 
 export const appConfig: ApplicationConfig = {
   providers: [],
+=======
+import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
+import { provideRouter } from '@angular/router';
+
+import { routes } from './app.routes';
+
+export const appConfig: ApplicationConfig = {
+  providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes)]
+>>>>>>> 4865f0c2b026a529050b935eac7b49239addc80f
 };
