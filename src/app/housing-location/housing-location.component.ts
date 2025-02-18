@@ -13,5 +13,5 @@ import { CommonModule } from '@angular/common';
   styleUrls: ["./housing-location.component.css"]
 })
 export class HousingLocationComponent {
-  @Input() housingLocation!: HousingLocation;
+  @Input() housingLocation!: HousingLocation;  // notice @ and () covering the Input
 }
