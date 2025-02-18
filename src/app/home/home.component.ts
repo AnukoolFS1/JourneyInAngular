@@ -1,6 +1,6 @@
-import {Component} from '@angular/core';
-import {CommonModule} from '@angular/common';
-import {HousingLocationComponent} from '../housing-location/housing-location.component';
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { HousingLocationComponent } from '../housing-location/housing-location.component';
 @Component({
   selector: 'app-home',
   imports: [CommonModule, HousingLocationComponent],
